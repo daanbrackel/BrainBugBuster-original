@@ -31,9 +31,9 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description="Run EMU analysis on a folder of barcode files")
-    parser.add_argument("input_folder", type=str, help="Path to the folder containing barcode files")
-    parser.add_argument("output_folder", type=str, help="Path to the folder where output will be saved")
-    parser.add_argument("emu_database_dir", type=str, help="Path to the EMU database directory")
+    parser.add_argument("input_folder", type=str, help="Path to the folder containing all barcode files (.fastq files)")
+    parser.add_argument("output_folder", type=str, help="Path to the folder where output will be saved (tip: make a folder named output_EMU/"run_name")")
+    parser.add_argument("emu_database_dir", type=str, help="Path to the EMU database directory (folder is named "EMU")")
     parser.add_argument("--threads", type=int, default=1, help="Number of threads to use (default: 1)")
     args = parser.parse_args()
 

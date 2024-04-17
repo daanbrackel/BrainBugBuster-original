@@ -55,7 +55,7 @@ def plot_abundance(input_csv, output_species_html, output_genus_html):
 if __name__ == "__main__":
     # Parse command line arguments
     parser = argparse.ArgumentParser(description="Plot species and genus abundance per barcode")
-    parser.add_argument("input_csv", type=str, help="Path to input CSV file")
+    parser.add_argument("input_csv", type=str, help="Path to input CSV file (your new merged csv file containing all barcodes)")
     parser.add_argument("output_species_html", type=str, help="Path to output HTML file for species plot")
     parser.add_argument("output_genus_html", type=str, help="Path to output HTML file for genus plot")
     args = parser.parse_args()

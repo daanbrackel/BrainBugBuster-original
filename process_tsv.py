@@ -20,7 +20,7 @@ def process_file(input_file, output_file):
 
 def main():
     parser = argparse.ArgumentParser(description="Process EMU output files")
-    parser.add_argument("input_folder", type=str, help="Path to the folder containing barcode output folders")
+    parser.add_argument("input_folder", type=str, help="Path to the folder containing barcode output folders (these output folders contain the .tsv files)")
     args = parser.parse_args()
 
     process_tsv(args.input_folder)

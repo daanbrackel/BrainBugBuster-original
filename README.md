@@ -32,7 +32,7 @@ do this in the direction you would like to install EMU in (for instance your pro
 # Installing all needed scripts
 install all python scripts in the same directory (preferrebly in the same programs folder were you installed EMU).
 
-you can download the list of below scripts from this repository and upload them to your programs folder or create them yourself by using nana "file_name.py", and copy pasting the script.
+you can download the list of below scripts from this repository and upload them to your programs folder or create them yourself by using nano "file_name.py", and copy pasting the script.
 
 - EMU_loop_script.py
 

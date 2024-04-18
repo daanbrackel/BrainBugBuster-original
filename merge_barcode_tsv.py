@@ -24,7 +24,7 @@ def save_merged_dataframe(merged_dataframe, output_file):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Merge processed TSV files and save as CSV")
     parser.add_argument("input_folder", type=str, help="Path to the folder containing barcode_output folders with the processed TSV file")
-    parser.add_argument("output_file", type=str, help="Path to save the merged CSV file (advised to keep in the same folder were all barcode_output folders can be found)")
+    parser.add_argument("output_file", type=str, help="Path to save the merged CSV file (advised to keep in the same folder were all barcode_output folders can be found, you will need to give the file a name of your own for instance "merged.csv")")
     args = parser.parse_args()
 
     merged_dataframe = merge_processed_tsv_files(args.input_folder)

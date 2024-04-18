@@ -14,6 +14,10 @@ With the last plotting script all data can be visualized per barcode using plotl
 
 `conda activate py37`
 
+### install plotly in your py37 environment
+`pip install plotly`
+
+
 ### Install Emu
 do this in the direction you would like to install EMU in (for instance your programs folder)
 
